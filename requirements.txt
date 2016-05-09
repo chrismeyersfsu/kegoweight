@@ -1,0 +1,3 @@
+spidev
+requests
+RPi.GPIO
