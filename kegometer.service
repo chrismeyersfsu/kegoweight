@@ -1,0 +1,9 @@
+[Unit]
+Description=Kegometer
+
+[Service]
+ExecStart=/home/pi/kegometer/main.py
+WorkingDirectory=/home/pi/kegometer
+
+[Install]
+WantedBy=multi-user.target
